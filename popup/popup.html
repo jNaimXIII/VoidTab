@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="paper.min.css" />
+    <link rel="stylesheet" href="popup.css" />
+
+    <script src="popup.js" defer></script>
+
+    <title>Void Tab</title>
+  </head>
+  <body>
+    <form id="color-input-form" class="padding-small">
+      <div class="form-group">
+        <label for="dark-color-input"> Dark Mode </label>
+        <input id="dark-color-input" class="input-block" type="color" />
+      </div>
+
+      <div class="form-group">
+        <label for="light-color-input"> Light Mode </label>
+        <input id="light-color-input" class="input-block" type="color" />
+      </div>
+
+      <button class="btn-block" type="submit">Update</button>
+      <button class="btn-block" id="reset-colors-button">Reset</button>
+    </form>
+  </body>
+</html>

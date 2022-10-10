@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "VoidTab",
+  "description": "A void new-tab page.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jannatin Naim",
+    "email": "soup@jannatinnaim.com"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_icon": "images/VoidTab.png",
+    "default_title": "Click to configure VoidTab.",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["storage", "nativeMessaging", "tabs"],
+  "chrome_url_overrides": {
+    "newtab": "newtab/newtab.html"
+  }
+}

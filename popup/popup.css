@@ -1,0 +1,13 @@
+body {
+  width: 420px;
+}
+
+#dark-color-input,
+#light-color-input {
+  height: 3rem;
+}
+
+#reset-colors-button {
+  font-size: 0.8rem;
+  padding: 0.4rem;
+}
